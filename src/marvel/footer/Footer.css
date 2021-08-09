@@ -1,0 +1,139 @@
+body {
+  background-color: white;
+  color: #fff;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*  Card Section */
+
+.cardss {
+  color: black;
+}
+
+/* Comic Scetion Start Here */
+
+.left-comic1 {
+  padding: 2px;
+  text-align: center;
+}
+.left-comic2 {
+  padding: 2px;
+  text-align: center;
+}
+.left-comic3 {
+  padding: 2px;
+  text-align: center;
+}
+.comic-color {
+  background-color: black;
+}
+section button {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.butt {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+/* End */
+
+/* Footer Start Here */
+.mar {
+  color: red;
+  text-align: center;
+}
+
+.earn {
+  text-align: center;
+}
+
+.get {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.terms {
+  padding-top: 62px;
+  text-align: center;
+}
+
+.footer-top {
+  background-color: black;
+  border-top: 1px solid #394047;
+  border-bottom: 1px solid #394047;
+  padding: 60px 0 30px 0;
+}
+
+.footer-info {
+}
+
+.social-links a {
+  font-size: 16px;
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  line-height: 1;
+  padding: 10px 0;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  width: 36px;
+  height: 35px;
+}
+.social-links a:hover {
+  background: red;
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+/* Footer End */
+
+/* card Css */
+#card_up {
+  top: -40px;
+}
+
+/* Comic Scetion Start Here */
+
+.left-comic1 {
+  margin-top: 21%;
+  padding: 2px;
+  text-align: center;
+}
+.left-comic2 {
+  padding: 2px;
+  text-align: center;
+}
+.left-comic3 {
+  padding: 2px;
+  text-align: center;
+}
+.container-fluid {
+  background-color: black;
+  color: white;
+}
+
+.butt {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+/* End */

@@ -4,7 +4,7 @@ const Card = (prop) => {
   return (
     <>
       <div
-        className="card  text-dark shadow p-2 mb-5  rounded"
+        className="card  text-dark shadow  p-2 mb-5  rounded"
         style={{ width: "18rem" }}
       >
         <img src={prop.img} className="card-img-top" alt="..." />

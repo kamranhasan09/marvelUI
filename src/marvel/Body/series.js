@@ -6,7 +6,7 @@ const Series = (prop) => {
     <>
       <div className="container text-light">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-sm-6">
             <div className="">
               <div className="p-5">
                 <Tilt>
@@ -15,7 +15,7 @@ const Series = (prop) => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6">
             <div>
               <div className="p-5">
                 <h1 className=" text-center ">{prop.name}</h1>

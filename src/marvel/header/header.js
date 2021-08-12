@@ -6,12 +6,16 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-      <section className="seccc">
+      <section className="seccc container-fluid ">
+      <div className="">
         <header>
-          <a href="#">
+          <a href="/">
             <img src={logo} className="logo" alt="logo" />
           </a>
-          <div className="toggle" ></div>
+          <input type="checkbox" id="check"/>
+    <label for="check" class="checkbtn">
+    <i class="far fa-bars"></i>
+    </label>
           <ul className="navigation">
             <li>
               <a href="#">Videos</a>
@@ -54,6 +58,7 @@ const Header = () => {
             </p>
             <a href="#">Watch trailler now</a>
           </div>
+        </div>
         </div>
       </section>
     </>

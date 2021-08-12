@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <div className="container-fluid p-5" style={{ background: "#000" }}>
         <div className="row">
-          <div className="col-3">
+          <div className="col-sm-3 border-bottom">
             <ul className="list-group">
               <li className="list-group">ABOUT MARVEL</li>
               <li className="list-group">HELP/FAQS</li>
@@ -13,7 +13,7 @@ export default function Footer() {
               <li className="list-group">INTERNSHIPS</li>
             </ul>
           </div>
-          <div className="col-3">
+          <div className=" col-sm-3 border-bottom p-2">
             <ul className="list-group">
               <li className="list-group">ADVERTISING</li>
               <li className="list-group">DISNEY+</li>
@@ -21,7 +21,7 @@ export default function Footer() {
               <li className="list-group">REDEEM DIGITAL COMICS</li>
             </ul>
           </div>
-          <div className="col-3">
+          <div className="col-sm-3 border-bottom p-2">
             <ul className="list-group">
               <li className="list-group">MARVEL INSIDER</li>
               <li className="list-group">
@@ -32,7 +32,7 @@ export default function Footer() {
               <li className="list-group">Access Over 28,000 Digital Comics</li>
             </ul>
           </div>
-          <div className="col-3">
+          <div className="col-sm-3 border-bottom p-2">
             <div className="footer-info text-center">
               <p>FOLLOW MARVEL</p>
               <div className="social-links mt-3 social-links">
@@ -45,7 +45,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr />
         <div className="row">
           <div className="copyright">
             Privacy Policy&emsp; Your California Privacy Rights&emsp; Do Not

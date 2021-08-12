@@ -49,9 +49,6 @@ const Body = () => {
               ytlink=""
             />
           </div>
-        </div>
-
-        <div className="row">
           <div className="col">
             <Card
               img="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/e5b711eb334a692f7be29efaf18eafdb_efa9d9c1-09e6-49a6-aff4-0d2d2d9571a5_480x.progressive.jpg?v=1573584624"
@@ -84,9 +81,6 @@ const Body = () => {
               ytlink=""
             />
           </div>
-        </div>
-
-        <div className="row">
           <div className="col">
             <Card
               img="http://cdn.shopify.com/s/files/1/0037/8008/3782/products/Captain_America_-_The_Winters_Soldier_-_Int_Advance_One_Sheet-2-725754_1200x1200.jpg?v=1611687839"
@@ -119,9 +113,6 @@ const Body = () => {
               ytlink=""
             />
           </div>
-        </div>
-
-        <div className="row">
           <div className="col">
             <Card
               img="https://i.pinimg.com/originals/46/05/c3/4605c3ad7ac5e92998ea80f57209ba4f.jpg"
@@ -154,9 +145,6 @@ const Body = () => {
               ytlink=""
             />
           </div>
-        </div>
-
-        <div className="row">
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
@@ -189,9 +177,6 @@ const Body = () => {
               ytlink=""
             />
           </div>
-        </div>
-
-        <div className="row">
           <div className="col">
             <Card
               img="https://cdn.europosters.eu/image/750/posters/captain-marvel-epic-i71851.jpg"
@@ -223,7 +208,9 @@ const Body = () => {
               date="2021/07/09"
               ytlink={youtubelink.blackwidow}
             />
-          </div>
+        </div>
+
+       
         </div>
       </div>
 

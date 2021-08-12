@@ -86,7 +86,7 @@ section button {
   height: 35px;
 }
 .social-links a:hover {
-  background: red;
+  background: #dc3545;
   color: #fff;
   text-decoration: none;
 }

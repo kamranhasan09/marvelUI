@@ -17,22 +17,22 @@ const Card = (prop) => {
             type="button"
             className="btn btn-primary shadow  w-100"
             data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+            data-bs-target={'#'+prop.id}
           >
             Watch Trailer Now
           </button>
 
           <div
             className="modal fade"
-            id="exampleModal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
+            id={prop.id}
+            tabIndex="-1"
+            aria-labelledby={"example"+prop.id}
             aria-hidden="true"
           >
             <div className=" modal-dialog modal-dialog-centered modal-fullscreen-sm-down modal-fullscreen">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title text-dark" id="exampleModalLabel">
+                  <h5 className="modal-title text-dark" id={"example"+prop.id}>
                     {prop.title}
                   </h5>
                   <button
@@ -48,9 +48,9 @@ const Card = (prop) => {
                     height="98%"
                     src={prop.ytlink}
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
               </div>

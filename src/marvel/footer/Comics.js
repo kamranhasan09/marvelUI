@@ -23,7 +23,7 @@ export default function Comics() {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-12">
-            <img src={comic1} className="img-fluid" />
+            <img src={comic1} className="img-fluid" alt="img" />
           </div>
         </div>
       </div>

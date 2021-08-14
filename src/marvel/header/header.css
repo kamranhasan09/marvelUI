@@ -131,7 +131,7 @@ header ul li a:hover {
   display: none;
 }
 #check{
-    display: none;
+  display: none;
 }
 
 /* reponsive  */
@@ -143,11 +143,14 @@ header ul li a:hover {
     display: block;
   }
   
+#check:checked ~ul{
+  left: 0;
+ }
+  
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
   .seccc {
@@ -173,8 +176,8 @@ header ul {
   width: 100%;
   top:50px;
   height:100vh;
-  background: rgba(0, 0, 0, 0.85);
-  left:-100%;
+  background: rgba(0, 0, 0,0.95);
+  left:+100%;
   text-align: center;
   transition: all .5s;
   overflow: hidden;
@@ -184,7 +187,12 @@ header ul {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  
+}
+header img .bar{
+  float: right;
+  right: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header ul li a{
@@ -226,9 +234,6 @@ header .logo {
   position: relative;
   padding: 15px;
   max-width: 700px;
-}
-#check:checked ~ul{
-  left: 0;
 }
 
  }

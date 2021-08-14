@@ -4,7 +4,30 @@ import Series from "./series";
 const Body = () => {
   const youtubelink = {
     ironman: "https://www.youtube.com/embed/KAE5ymVLmZg",
+    hulk:"https://www.youtube.com/embed/xbqNb2PFKKA",
+    ironman2:"https://www.youtube.com/embed/BoohRoVA9WQ",
+    ironman3:"https://www.youtube.com/embed/zoWMW2O2rzc",
+    thor:"https://www.youtube.com/embed/JOddp-nlNvQ",
+    thor2:"https://www.youtube.com/embed/npvJ9FTgZbM",
+    thor3:"https://www.youtube.com/embed/ue80QwXMRHg",
+    captainamerica:"https://www.youtube.com/embed/JerVrbLldXw",
+    captainamerica2:"https://www.youtube.com/embed/7SlILk2WMTI",
+    captainamerica3:"https://www.youtube.com/embed/dKrVegVI0Us",
+    avenger:"https://www.youtube.com/embed/eOrNdBpGMv8",
+    avenger2:"https://www.youtube.com/embed/tmeOjFno6Do",
+    avenger3:"https://www.youtube.com/embed/6ZfuNTqbHE8",
+    avenger4:"https://www.youtube.com/embed/TcMBFSGVi1c",
+    antman:"https://www.youtube.com/embed/pWdKf3MneyI",
+    antman2:"https://www.youtube.com/embed/8_rTIAOohas",
+    doctorstrange:"https://www.youtube.com/embed/HSzx-zryEgM",
+    Guardians:"https://www.youtube.com/embed/d96cjJhvlMA",
+    Guardians2:"https://www.youtube.com/embed/wUn05hdkhjM",
+    spiderman:"https://www.youtube.com/embed/39udgGPyYMg",
+    spiderman2:"https://www.youtube.com/embed/VUFmhKpZKlE",
+    blackpanther:"https://www.youtube.com/embed/xjDjIWPwcPU",
+    captainmarvel:"https://www.youtube.com/embed/0LHxvxdRnYc",
     blackwidow: "https://www.youtube.com/embed/Fp9pNPdNwjI",
+    
   };
 
   return (
@@ -21,6 +44,7 @@ const Body = () => {
             <Card
               img="https://mypostercollection.com/wp-content/uploads/2018/08/Iron-Man-Poster-2008-MyPosterCollection.com-3-683x1024.jpg"
               title="Iron Man"
+              id="a"
               date="2008/05/02"
               ytlink={youtubelink.ironman}
             />
@@ -30,135 +54,152 @@ const Body = () => {
               img="https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_.jpg"
               title="The Incredible Hulk"
               date="2008/06/13"
-              ytlink={youtubelink.blackwidow}
+              id="b"
+              ytlink={youtubelink.hulk}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_.jpg"
               title="Iron Man 2"
+              id="c"
               date="2010/05/07"
-              ytlink=""
+              ytlink={youtubelink.ironman2}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/I/81J92wTovHL._AC_SY741_.jpg"
               title="Thor"
+              id="d"
               date="2011/05/06"
-              ytlink=""
+              ytlink={youtubelink.thor}
             />
           </div>
           <div className="col">
             <Card
               img="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/e5b711eb334a692f7be29efaf18eafdb_efa9d9c1-09e6-49a6-aff4-0d2d2d9571a5_480x.progressive.jpg?v=1573584624"
               title="Captain America: The First Avenger"
+              id="e"
               date="2011/07/22"
-              ytlink=""
+              ytlink={youtubelink.captainamerica}
             />
           </div>
           <div className="col">
             <Card
-              img="https://www.joblo.com/assets/images/oldsite/posters/images/full/02_AVG_Online1Sht_UK2_rgb_thumb.jpg"
-              title="Marvel’s The Avengers"
+              img="https://m.media-amazon.com/images/I/719SFBdxRtL._AC_SL1000_.jpg"
+              title="The Avengers"
+              id="f"
               date="2012/05/04"
-              ytlink=""
+              ytlink={youtubelink.avenger}
             />
           </div>
           <div className="col">
             <Card
               img="https://collider.com/wp-content/uploads/iron-man-3-international-poster1.jpg"
+              id="g"
               title="Iron Man 3"
               date="2013/05/03"
-              ytlink=""
+              ytlink={youtubelink.ironman3}
             />
           </div>
           <div className="col">
             <Card
               img="https://media.comicbook.com/wp-content/uploads/2013/09/Thor_Un_Mundo_Oscuro_Poster_Latino_ex_JPosters.jpg"
               title="Thor: The Dark World"
+              id="h"
               date="2013/11/08"
-              ytlink=""
+              ytlink={youtubelink.thor2}
             />
           </div>
           <div className="col">
             <Card
               img="http://cdn.shopify.com/s/files/1/0037/8008/3782/products/Captain_America_-_The_Winters_Soldier_-_Int_Advance_One_Sheet-2-725754_1200x1200.jpg?v=1611687839"
               title="Captain America: The Winter Soldier"
+              id="i"
               date="2014/04/04"
-              ytlink=""
+              ytlink={youtubelink.captainamerica2}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/I/71lbFfxfMtL._AC_SY741_.jpg"
               title="Guardians of the Galaxy"
+              id="j"
               date="2014/08/01"
-              ytlink=""
+              ytlink={youtubelink.Guardians}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg"
               title="Avengers: Age of Ultron"
+              id="x"
               date="2015/05/01"
-              ytlink=""
+              ytlink={youtubelink.avenger2}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_FMjpg_UX1000_.jpg"
               title="Ant-Man"
+              id="k"
               date="2015/07/17"
-              ytlink=""
+              ytlink={youtubelink.antman}
             />
           </div>
           <div className="col">
             <Card
               img="https://i.pinimg.com/originals/46/05/c3/4605c3ad7ac5e92998ea80f57209ba4f.jpg"
               title="	Captain America: Civil War"
+              id="l"
               date="2016/05/06"
-              ytlink=""
+              ytlink={youtubelink.captainamerica3}
             />
           </div>
           <div className="col">
             <Card
               img="https://mypostercollection.com/wp-content/uploads/2019/08/doctor-strange-2.jpg"
               title="Doctor Strange"
+              id="m"
               date="2016/11/04"
-              ytlink=""
+              ytlink={youtubelink.doctorstrange}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_.jpg"
               title="Guardians of the Galaxy Vol. 2"
+              id="n"
               date="2017/05/05"
-              ytlink=""
+              ytlink={youtubelink.Guardians2}
             />
           </div>
           <div className="col">
             <Card
               img="https://mypostercollection.com/wp-content/uploads/2018/07/Spider-Man-Homecoming-Printable-Posters-MyPosterCollection.com-27.jpg"
               title="Spider-Man: Homecoming"
+              id="o"
               date="2017/07/07"
-              ytlink=""
+              ytlink={youtubelink.spiderman}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
               title="	Thor: Ragnarok"
+              id="p"
               date="2017/11/03"
-              ytlink=""
+              ytlink={youtubelink.thor3}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg"
               title="Black Panther"
+              id="q"
               date="2018/02/16"
-              ytlink=""
+              ytlink={youtubelink.blackpanther}
             />
           </div>
           <div className="col">
@@ -166,31 +207,35 @@ const Body = () => {
               img="https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg"
               title="The Avengers: Infinity War"
               date="2018/04/27"
-              ytlink=""
+              id="r"
+              ytlink={youtubelink.avenger3}
             />
           </div>
           <div className="col">
             <Card
-              img="https://www.joblo.com/assets/images/oldsite/posters/images/full/Ant-Man-and-the-wasp-Dolby-poster_thumb.jpg"
+              img="https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
               title="Ant-Man And The Wasp"
               date="2018/07/06"
-              ytlink=""
+              id="s"
+              ytlink={youtubelink.antman2}
             />
           </div>
           <div className="col">
             <Card
               img="https://cdn.europosters.eu/image/750/posters/captain-marvel-epic-i71851.jpg"
               title="Captain Marvel"
+              id="t"
               date="2019/03/08"
-              ytlink=""
+              ytlink={youtubelink.captainmarvel}
             />
           </div>
           <div className="col">
             <Card
               img="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/d1pklzbuyaab0la-1552597012.jpg"
               title="The Avengers: Endgame"
+              id="u"
               date="2019/04/26"
-              ytlink=""
+              ytlink={youtubelink.avenger4}
             />
           </div>
           <div className="col">
@@ -198,13 +243,15 @@ const Body = () => {
               img="https://media.comicbook.com/2019/08/spiderman-1185098.jpeg?auto=webp&width=500&height=738&crop=500:738,smart"
               title="Spider-Man Far From Home"
               date="2019/07/05"
-              ytlink=""
+              id="v"
+              ytlink={youtubelink.spiderman2}
             />
           </div>
           <div className="col">
             <Card
               img="https://m.media-amazon.com/images/M/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
               title="Black Widow"
+              id="w"
               date="2021/07/09"
               ytlink={youtubelink.blackwidow}
             />

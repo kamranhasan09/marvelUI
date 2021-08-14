@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../img/logo-name.png";
 import video from "../img/video.mp4";
+import bar from "../img/bar.png";
 import "./header.css";
 
 const Header = () => {
@@ -9,13 +10,17 @@ const Header = () => {
       <section className="seccc container-fluid ">
       <div className="">
         <header>
+          <div className="logo">
           <a href="/">
-            <img src={logo} className="logo" alt="logo" />
+            <img src={logo} className="logo"  alt="logo" />
           </a>
+          </div>
+          
           <input type="checkbox" id="check"/>
     <label for="check" class="checkbtn">
-    <i class="far fa-bars"></i>
+    <img src={bar} alt="logo" />
     </label>
+    
           <ul className="navigation">
             <li>
               <a href="#">Videos</a>

@@ -1,6 +1,5 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
-import "./Footer.css";
 import c1 from "../img/c1.jpg";
 import c2 from "../img/c2.jpg";
 import c3 from "../img/c3.jpg";
@@ -13,11 +12,12 @@ export default function Card() {
     <div>
       <section className="cardss">
         <div className="container">
-          <div className="row p-2">
+          <div className="row p-2" >
             <div className="col-md-2">
               <Tilt>
                 <img
                   src={c1}
+                  alt="img"
                   className="img-fluid"
                   style={{ height: "20rem", width: "12rem" }}
                 />
@@ -30,6 +30,7 @@ export default function Card() {
               <Tilt>
                 <img
                   src={c2}
+                  alt="img"
                   className="p-2"
                   style={{ height: "20rem", width: "12rem" }}
                 />
@@ -42,6 +43,7 @@ export default function Card() {
               <Tilt>
                 <img
                   src={c3}
+                  alt="img"
                   className="p-2"
                   style={{ height: "20rem", width: "12rem" }}
                 />
@@ -53,7 +55,8 @@ export default function Card() {
             <div className="col-md-2 ">
               <Tilt>
                 <img
-                  src={c4}
+                  src={c4}                  
+                  alt="img"
                   className="p-2"
                   style={{ height: "20rem", width: "12rem" }}
                 />
@@ -66,6 +69,7 @@ export default function Card() {
               <Tilt>
                 <img
                   src={c5}
+                  alt="img"
                   className="p-2"
                   style={{ height: "20rem", width: "12rem" }}
                 />
@@ -78,6 +82,7 @@ export default function Card() {
               <Tilt>
                 <img
                   src={c6}
+                  alt="img"
                   className="p-2"
                   style={{ height: "20rem", width: "12rem" }}
                 />

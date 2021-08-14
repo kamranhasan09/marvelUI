@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <div className="container-fluid p-5" style={{ background: "#000" }}>
-        <div className="row">
+        <div className="row" >
           <div className="col-sm-3 border-bottom">
             <ul className="list-group">
               <li className="list-group">ABOUT MARVEL</li>
@@ -36,11 +36,11 @@ export default function Footer() {
             <div className="footer-info text-center">
               <p>FOLLOW MARVEL</p>
               <div className="social-links mt-3 social-links">
-                <a href="#" className="fa fa-facebook"></a>
-                <a href="#" className="fa fa-twitter"></a>
-                <a href="#" className="fa fa-instagram"></a>
-                <a href="#" className="fa fa-skype"></a>
-                <a href="#" className="fa fa-youtube"></a>
+                <a href="" className="fa fa-facebook"></a>
+                <a href="" className="fa fa-twitter"></a>
+                <a href="" className="fa fa-instagram"></a>
+                <a href="" className="fa fa-skype"></a>
+                <a href="" className="fa fa-youtube"></a>
               </div>
             </div>
           </div>

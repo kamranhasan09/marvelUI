@@ -42,7 +42,7 @@ const Body = () => {
         <div className="row">
           <div className="col">
             <Card
-              img="https://mypostercollection.com/wp-content/uploads/2018/08/Iron-Man-Poster-2008-MyPosterCollection.com-3-683x1024.jpg"
+              img="https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg"
               title="Iron Man"
               id="a"
               date="2008/05/02"
@@ -159,7 +159,7 @@ const Body = () => {
           </div>
           <div className="col">
             <Card
-              img="https://mypostercollection.com/wp-content/uploads/2019/08/doctor-strange-2.jpg"
+              img="https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg"
               title="Doctor Strange"
               id="m"
               date="2016/11/04"
@@ -177,7 +177,7 @@ const Body = () => {
           </div>
           <div className="col">
             <Card
-              img="https://mypostercollection.com/wp-content/uploads/2018/07/Spider-Man-Homecoming-Printable-Posters-MyPosterCollection.com-27.jpg"
+              img="https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_FMjpg_UX1000_.jpg"
               title="Spider-Man: Homecoming"
               id="o"
               date="2017/07/07"
@@ -216,10 +216,10 @@ const Body = () => {
               img="https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
               title="Ant-Man And The Wasp"
               date="2018/07/06"
-              id="s"
+              id="s" 
               ytlink={youtubelink.antman2}
             />
-          </div>
+          </div> 
           <div className="col">
             <Card
               img="https://cdn.europosters.eu/image/750/posters/captain-marvel-epic-i71851.jpg"
@@ -240,7 +240,7 @@ const Body = () => {
           </div>
           <div className="col">
             <Card
-              img="https://media.comicbook.com/2019/08/spiderman-1185098.jpeg?auto=webp&width=500&height=738&crop=500:738,smart"
+              img="https://m.media-amazon.com/images/M/MV5BNTAwYjg3YTQtMjdjNy00YTYxLWEyMDEtYzIxY2MzMWU5YWNlXkEyXkFqcGdeQXVyNzIyOTI2NTk@._V1_.jpg"
               title="Spider-Man Far From Home"
               date="2019/07/05"
               id="v"
@@ -255,7 +255,8 @@ const Body = () => {
               date="2021/07/09"
               ytlink={youtubelink.blackwidow}
             />
-        </div>
+          </div>
+          
 
        
         </div>

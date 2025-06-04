@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 const Card = (prop) => {
+  const iframeRef = useRef(null);
+
+  useEffect(() => {
+    const modal = document.getElementById(prop.id);
+    if (!modal) return;
+
+    const handleHide = () => {
+      if (iframeRef.current) {
+        // Reset src to stop the video
+        iframeRef.current.src = prop.ytlink;
+      }
+    };
+
+    modal.addEventListener("hidden.bs.modal", handleHide);
+
+    return () => {
+      modal.removeEventListener("hidden.bs.modal", handleHide);
+    };
+  }, [prop.id, prop.ytlink]);
+
   return (
     <>
       <div
@@ -44,6 +64,7 @@ const Card = (prop) => {
                 </div>
                 <div className="modal-body">
                   <iframe
+                    ref={iframeRef}
                     width="100%"
                     height="98%"
                     src={prop.ytlink}

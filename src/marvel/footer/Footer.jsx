@@ -1,6 +1,8 @@
 import React from "react";
 import "../footer/Footer.css";
 export default function Footer() {
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <>
       <div className="container-fluid p-5" style={{ background: "#000" }}>
@@ -50,7 +52,7 @@ export default function Footer() {
             Privacy Policy&emsp; Your California Privacy Rights&emsp; Do Not
             Sell My Personal Information&emsp; Children's Online Privacy
             Policy&emsp; License Agreement&emsp; Interest-Ads
-            <div className="credits">Marvel Insider Terms ©2021 MARVEL</div>
+            <div className="credits">Marvel Insider Terms ©{year} MARVEL</div>
           </div>
         </div>
       </div>

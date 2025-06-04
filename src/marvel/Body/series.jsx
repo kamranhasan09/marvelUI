@@ -10,7 +10,7 @@ const Series = (prop) => {
             <div className="">
               <div className="p-5">
                 <Tilt>
-                  <img src={prop.img} className="img-fluid" alt="img" />
+                  <img src={prop.img} className="img-fluid" alt={prop.name} />
                 </Tilt>
               </div>
             </div>

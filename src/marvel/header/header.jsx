@@ -17,7 +17,7 @@ const Header = () => {
           </div>
           
           <input type="checkbox" id="check"/>
-    <label for="check" class="checkbtn">
+    <label htmlFor="check" className="checkbtn">
     <img src={bar} alt="logo" />
     </label>
     

@@ -9,7 +9,6 @@ const Card = (prop) => {
 
     const handleHide = () => {
       if (iframeRef.current) {
-        // Reset src to stop the video
         iframeRef.current.src = prop.ytlink;
       }
     };
@@ -24,18 +23,19 @@ const Card = (prop) => {
   return (
     <>
       <div
-        className="card  text-dark shadow  p-2 mb-5  rounded"
+        className="card-header  container text-dark shadow mb-5  rounded "
         style={{ width: "18rem" }}
       >
+        <div className="">
         <img src={prop.img} className="card-img-top" alt="..." />
-        <div className="card-body ">
+        <div className="card-body mb-2 ">
           <h5 className="card-title">{prop.title}</h5>
           <strong className="card-text">Release Date</strong>
           <p className="card-text">{prop.date}</p>
           <p className="card-text">{prop.about}</p>
           <button
             type="button"
-            className="btn btn-primary shadow  w-100"
+            className="btn btn-primary shadow  w-100 "
             data-bs-toggle="modal"
             data-bs-target={'#'+prop.id}
           >
@@ -78,6 +78,7 @@ const Card = (prop) => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

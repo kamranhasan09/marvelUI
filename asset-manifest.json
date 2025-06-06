@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/marvelUI/static/css/main.8125da97.css",
+    "main.js": "/marvelUI/static/js/main.2447fc9d.js",
+    "static/media/video.mp4": "/marvelUI/static/media/video.a14a44460a2115653d6c.mp4",
+    "static/media/comic1.jpg": "/marvelUI/static/media/comic1.1fd733b7c9dd57339f62.jpg",
+    "static/media/c4.jpg": "/marvelUI/static/media/c4.8f9c553c490dd7a0c918.jpg",
+    "static/media/c2.jpg": "/marvelUI/static/media/c2.e76d8ca5ffa416194c85.jpg",
+    "static/media/c5.jpg": "/marvelUI/static/media/c5.86afc00a5a9776f837fc.jpg",
+    "static/media/c6.jpg": "/marvelUI/static/media/c6.a4546da1f73284a7d3a9.jpg",
+    "static/media/c3.jpg": "/marvelUI/static/media/c3.7293b2e33520a47ef540.jpg",
+    "static/media/c1.jpg": "/marvelUI/static/media/c1.b0eaf472bd9f5c0c3610.jpg",
+    "static/media/logo-name.png": "/marvelUI/static/media/logo-name.8e671fed928f6f291f20.png",
+    "index.html": "/marvelUI/index.html",
+    "main.8125da97.css.map": "/marvelUI/static/css/main.8125da97.css.map",
+    "main.2447fc9d.js.map": "/marvelUI/static/js/main.2447fc9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8125da97.css",
+    "static/js/main.2447fc9d.js"
+  ]
+}

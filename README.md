@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Tutorial: marvelUI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple website showcasing Marvel content. It acts as a central hub, displaying **information about Marvel movies and TV series**, highlighting **featured comics**, and providing a **gallery of comic covers**. It pulls together different sections like the *header*, *main content*, and *footer* to create a complete user interface for fans.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Visual Overview
 
-### `npm start`
+```mermaid
+flowchart TD
+    A0["Application Root
+"]
+    A1["Page Header
+"]
+    A2["Main Content Body
+"]
+    A3["Movie Card Component
+"]
+    A4["Series Display Component
+"]
+    A5["Featured Comic Section
+"]
+    A6["Comic Covers Section
+"]
+    A7["Page Footer
+"]
+    A0 -- "Renders" --> A1
+    A0 -- "Renders" --> A2
+    A0 -- "Renders" --> A5
+    A0 -- "Renders" --> A6
+    A0 -- "Renders" --> A7
+    A2 -- "Uses" --> A3
+    A2 -- "Uses" --> A4
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Chapters
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. [Main Content Body
+](/overview/01_main_content_body_.md)
+2. [Featured Comic Section
+](/overview/02_featured_comic_section_.md)
+3. [Comic Covers Section
+](/overview/03_comic_covers_section_.md)
+4. [Page Header
+](/overview/04_page_header_.md)
+5. [Page Footer
+](/overview/05_page_footer_.md)
+6. [Application Root
+](/overview/06_application_root_.md)
+7. [Movie Card Component
+](/overview/07_movie_card_component_.md)
+8. [Series Display Component
+](/overview/08_series_display_component_.md)

@@ -4,7 +4,7 @@ import Tilt from "react-parallax-tilt";
 const Series = (prop) => {
   return (
     <>
-      <div className="container text-light">
+      <div className="container text-light" id="tvshows">
         <div className="row">
           <div className="col-sm-6">
             <div className="">

@@ -5,14 +5,14 @@ import Series from "./series";
 import data from '../data/data.json'
 const Body = () => {  
   return (
-    <div className="bg-dark">
+    <div className="bg-dark" id="Movies">
       <div className="container-fluid bg-danger text-light p-4 text-center ">
         <h1>Watch All Marvel Movies on Disney+ Hotstar</h1>
       </div>
       <div
         className="container-fluid   p-3 mb-5"
         style={{ background: "#fff" }}>
-        <div className="row">
+        <div className="row" >
 
           
             {
@@ -35,7 +35,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="container-fluid bg-danger  text-light p-4 text-center">
+      <div className="container-fluid bg-danger  text-light p-4 text-center" id="tvshows">
         <h1>Watch All Series of Marvel on Disney+ Hotstar</h1>
       </div>
 

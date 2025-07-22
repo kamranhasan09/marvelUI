@@ -5,7 +5,7 @@ import comic1 from "../img/comic1.jpg";
 export default function Comics() {
   return (
     <>
-      <div className="text-center  text-dark">
+      <div className="text-center  text-dark" id="Comics">
         <h1>Purchase Our Comics</h1>
       </div>
       <div className="container-fluid">

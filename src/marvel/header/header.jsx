@@ -7,7 +7,7 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-      <section className="seccc container-fluid ">
+      <section className="seccc container-fluid " id="Home">
       <div className="">
         <header>
           <div className="logo">
@@ -23,32 +23,26 @@ const Header = () => {
     
           <ul className="navigation">
             <li>
-              <a href="#">Videos</a>
+              <a href="#Home">Home</a>
             </li>
             <li>
-              <a href="#">Character</a>
+              <a href="#Comics">Comics</a>
             </li>
             <li>
-              <a href="#">Carriers</a>
+              <a href="#Movies">Movies</a>
             </li>
             <li>
-              <a href="#">Movies</a>
+              <a href="#tvshows">TV Shows</a>
             </li>
             <li>
-              <a href="#">TV Shows</a>
-            </li>
-            <li>
-              <a href="#">Games</a>
-            </li>
-            <li>
-              <a href="#">More</a>
+              <a href="#Games">Games</a>
             </li>
           </ul>
         </header>
 
         <video src={video} muted loop autoPlay={true} />
 
-        <div className="content">
+        <div className="content" >
           <div className="textBox">
             <h2 className=".heading_2">
               <span className="spann">Avengers</span> Endgame
@@ -61,7 +55,7 @@ const Header = () => {
               universe once and foe all, no matter what consequences may be in
               store.
             </p>
-            <a href="#">Watch trailler now</a>
+            <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" target="_blank" rel="noopener noreferrer" aria-label="Trailer">Watch trailler now</a>
           </div>
         </div>
         </div>

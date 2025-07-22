@@ -38,11 +38,11 @@ export default function Footer() {
             <div className="footer-info text-center">
               <p>FOLLOW MARVEL</p>
               <div className="social-links mt-3 social-links">
-                <a href="" ><div className="fa fa-facebook"></div></a>
-                <a href="" ><div className="fa fa-twitter"></div></a>
-                <a href="" ><div className="fa fa-instagram"></div></a>
-                <a href="" ><div className="fa fa-skype"></div></a>
-                <a href="" ><div className="fa fa-youtube"></div></a>
+                <a href="https://www.facebook.com/Marvel/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><div className="fa fa-facebook"></div></a>
+                <a href="https://twitter.com/Marvel" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><div className="fa fa-twitter"></div></a>
+                <a href="https://www.instagram.com/marvel/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><div className="fa fa-instagram"></div></a>
+                <a href="https://www.skype.com/" target="_blank" rel="noopener noreferrer" aria-label="Skype"><div className="fa fa-skype"></div></a>
+                <a href="https://www.youtube.com/marvel" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><div className="fa fa-youtube"></div></a>
               </div>
             </div>
           </div>

@@ -16,12 +16,11 @@ const Body = () => {
 
           
             {
-            data.map((item) =>{
+            data.map((item,index) =>{
               return (
-                <>
-                <div className="col">
+                <div className="col" key={index}>
                 <Card
-                  key={item.id}
+                  key={index}
                   img={item.img}
                   title={item.title}
                   date={item.date}
@@ -29,7 +28,6 @@ const Body = () => {
                   ytlink={item.ytlink}
                 />
                 </div>
-                </>
               );
             })
       }

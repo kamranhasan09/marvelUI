@@ -5,6 +5,7 @@
   "homepage": "https://kamranhasan09.github.io/marvelUI/",
   "description": "A Marvel-themed React application showcasing characters and comics.",
   "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-parallax-tilt": "^1.7.296",

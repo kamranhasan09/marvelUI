@@ -1,4 +1,4 @@
-import Header from "./marvel/header/Header.jsx";
+import Header from "./marvel/header/header.jsx";
 import Body from "./marvel/Body/Body.jsx";
 import Footer from "./marvel/footer/Footer.jsx";
 import Card from "./marvel/footer/Card.jsx";

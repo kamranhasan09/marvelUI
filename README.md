@@ -1,4 +1,4 @@
-# Tutorial: marvelUI
+#  MarvelUI
 
 This project is a simple website showcasing Marvel content. It acts as a central hub, displaying **information about Marvel movies and TV series**, highlighting **featured comics**, and providing a **gallery of comic covers**. It pulls together different sections like the *header*, *main content*, and *footer* to create a complete user interface for fans.
 

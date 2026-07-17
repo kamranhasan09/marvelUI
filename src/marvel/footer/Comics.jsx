@@ -1,4 +1,3 @@
-import React from "react";
 import "../footer/Footer.css";
 import comic1 from "../img/comic1.jpg";
 

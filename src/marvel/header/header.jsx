@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../img/logo-name.png";
 import video from "../img/video.mp4";
 import bar from "../img/bar.png";

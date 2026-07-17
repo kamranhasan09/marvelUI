@@ -1,4 +1,3 @@
-import React from "react";
 import Tilt from "react-parallax-tilt";
 import c1 from "../img/c1.jpg";
 import c2 from "../img/c2.jpg";

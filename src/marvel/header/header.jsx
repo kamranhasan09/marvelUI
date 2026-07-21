@@ -39,20 +39,15 @@ const Header = () => {
           </ul>
         </header>
 
-        <video src={video} muted loop autoPlay={true} />
+        <video src={video} width="100%" height="80%" muted loop autoPlay={true} />
 
         <div className="content" >
           <div className="textBox">
             <h2 className=".heading_2">
-              <span className="spann">Avengers</span> Endgame
+              <span className="spann">Avengers</span> Doomsday
             </h2>
             <p>
-              After the devastating events of Avengers: Infinity War (2018), the
-              universe is in ruins due to the effarts of the Mad Titan, Thanos.
-              With the help of remaining allies, the Avengers must Assemble once
-              more in order to undo Thanos actions and restore order to the
-              universe once and foe all, no matter what consequences may be in
-              store.
+              As a new and terrifying force threatens the fate of every universe, the Avengers must assemble once more alongside powerful allies to confront the ruthless Doctor Doom. With reality itself on the brink of collapse, Earth's Mightiest Heroes must fight to stop an unimaginable catastrophe, no matter what sacrifices lie ahead.
             </p>
             <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" target="_blank" rel="noopener noreferrer" aria-label="Trailer">Watch trailler now</a>
           </div>

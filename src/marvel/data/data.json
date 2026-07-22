@@ -172,91 +172,91 @@
         "img": "https://m.media-amazon.com/images/M/MV5BZmY5MDcyNzAtYzg3MC00MGNlLTg3OGItNmRjYThkZGVlNzAyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "date": "2021-09-03",
     "title": "Shang-Chi and the Legend of the Ten Rings",
-    "ytlink": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
+    "ytlink": "https://www.youtube.com/embed/8YjFbMbfXaQ?si=HP8lCQ1x0beWY81d"
   },
   {
     "id":"26",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGe5egxrIHZ1uNvJYvaHUT67z-xBJdBE_U-IWrxFsxXA&s=10",
     "date": "2021-11-05",
     "title": "Eternals",
-    "ytlink": "https://www.youtube.com/watch?v=x_me3xsvDgk"
+    "ytlink": "https://www.youtube.com/embed/x_me3xsvDgk?si=N929SUv2M9Yd9uwh"
   },
   {
     "id": "27",
     "img":"https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "date": "2021-12-17",
     "title": "Spider-Man: No Way Home",
-    "ytlink": "https://www.youtube.com/watch?v=JfVOs4VSpmA"
+    "ytlink": "https://www.youtube.com/embed/ZYzbalQ6Lg8?si=QeDW6tBfSNKIreXm"
   },
   {
     "id": "28",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoEpdxs2poFnYBfM89o6GXoey5o93J0tL9hCKkFy9d9w&s=10",
     "date": "2022-05-06",
     "title": "Doctor Strange in the Multiverse of Madness",
-    "ytlink": "https://www.youtube.com/watch?v=aWzlQ2N6qqg"
+    "ytlink": "https://www.youtube.com/embed/aWzlQ2N6qqg?si=O_YON33HKI2MKGwn"
   },
   {
     "id": "29",
-    "img":"https://m.media-amazon.com/images/M/MV5BZjRiMDhiZjQtNjk5Yi00ZDcwLTkyYTEtMDc1NjdmNjFhNGIzXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4Z-Cj4Fyb0Z_1lfwJeyMDnzDaUrHE3bkjBb7cokfYw&s=10",
     "date": "2022-07-08",
     "title": "Thor: Love and Thunder",
-    "ytlink": "https://www.youtube.com/watch?v=Go8nTmfrQd8"
+    "ytlink": "https://www.youtube.com/embed/Go8nTmfrQd8?si=IB5zEr-pNbmmU9Rk"
   },
   {
     "id": "30",
     "img":"https://m.media-amazon.com/images/M/MV5BYWY5NDY1ZjItZDQxMy00MTAzLTgyOGQtNTQxYjFiMzZjMjUyXkEyXkFqcGc@._V1_.jpg",
     "date": "2022-11-11",
     "title": "Black Panther: Wakanda Forever",
-    "ytlink": "https://www.youtube.com/watch?v=_Z3QKkl1WyM"
+    "ytlink": "https://www.youtube.com/embed/RlOB3UALvrQ?si=K1X5t7gg_25epEhp"
   },
   {
     "id": "31",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoxTPV4fRhWjuNLXrmKqL57N05b0yimqpinpAOl5HwQ&s=10",
     "date": "2023-02-17",
     "title": "Ant-Man and the Wasp: Quantumania",
-    "ytlink": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
+    "ytlink": "https://www.youtube.com/embed/ZlNFpri-Y40?si=Uia8r0BCNMJMohGP"
   },
   {
     "id": "32",
-    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcL59NRr0QE-H2HPB0WHOkJTxQpBHzQnb03uJnYbB_aQ&s=10",
+    "img":"https://m.media-amazon.com/images/M/MV5BMzI1Y2M5YjMtZWVkZS00MDE1LWE2MmMtY2ZiYmFlYzE4ZjBkXkEyXkFqcGc@._V1_.jpg",
     "date": "2023-05-05",
     "title": "Guardians of the Galaxy Vol. 3",
-    "ytlink": "https://www.youtube.com/watch?v=u3V5KDHRQvk"
+    "ytlink": "https://www.youtube.com/embed/u3V5KDHRQvk?si=RV-z5Xo9T45Y8vjZ"
   },
   {
     "id": "33",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaJts_uvQt_EBJ7nFONcAqJn59SnbirBA9qui0h8K40Q&s=10",
     "date": "2023-11-10",
     "title": "The Marvels",
-    "ytlink": "https://www.youtube.com/watch?v=wS_qbDztgVY"
+    "ytlink": "https://www.youtube.com/embed/wS_qbDztgVY?si=kHiGp3TnfIIP3Mez"
   },
   {
     "id": "34",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf8eeWwdW9ZxYGv0LSHofsR4npytj-7NpC-L8qRDHLrA&s=10",
     "date": "2024-07-26",
     "title": "Deadpool & Wolverine",
-    "ytlink": "https://www.youtube.com/watch?v=73_1biulkYk"
+    "ytlink": "https://www.youtube.com/embed/73_1biulkYk?si=tyD-q94Yo-NnfPrR"
   },
   {
     "id": "35",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4BqgN-qETrS37lJU4NBV0zAhMoNbntrWXD2_pyU9kcg&s=10",
     "date": "2025-02-14",
     "title": "Captain America: Brave New World",
-    "ytlink": "https://www.youtube.com/watch?v=1pHDWnXmK7Y"
+    "ytlink": "https://www.youtube.com/embed/1pHDWnXmK7Y?si=ulypEO5oG91KxzSo"
   },
   {
     "id": "36",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSATGq9cV5qJcfAOTROK2Vzcoclqz1c9s3XZhxYQH_WDg&s=10",
     "date": "2025-05-02",
     "title": "Thunderbolts*",
-    "ytlink": "https://www.youtube.com/watch?v=hUUszE29jS0"
+    "ytlink": "https://www.youtube.com/embed/hUUszE29jS0?si=KMJwTgtUsD7KbiV4"
   },
   {
     "id": "37",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx6RDAGl5M4dH_fnS7mYxJC_0rdNFNsoY1c6wVVB6csA&s=10",
     "date": "2025-07-25",
     "title": "The Fantastic Four: First Steps",
-    "ytlink": "https://www.youtube.com/watch?v=AzMo-FgRp64"
+    "ytlink": "https://www.youtube.com/embed/pAsmrKyMqaA?si=KCddc-1lt1aTieiI"
   },{
     "id": "38",
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTix1JTOha0Q8jsn-Lgzm3ypzfTYkdEAdJ2ZP-YKemZBQ&s=10",
@@ -274,7 +274,7 @@
   {
     "id":"40",
     "img":"https://m.media-amazon.com/images/M/MV5BYTQyZTQ5MWQtN2M4NC00YWQwLTg3ZTctM2JiZDE4NDBkZDJkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "date": "2027-05-01",
+    "date": "2027-12-17",
     "title": "Avengers: Secret Wars",
     "ytlink": ""
   }
